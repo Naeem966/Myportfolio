@@ -8,65 +8,73 @@ const Career = () => {
           My career <span>&</span>
           <br /> experience
         </h2>
+
         <div className="career-info">
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
+
+          {/* CURRENT */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>PhD Researcher</h4>
+                <h5>Nanjing University of Information Science & Technology</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024 – Present</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Pursuing a PhD in Computer Science with a focus on Machine Learning,
+              Deep Learning, and advanced AI systems. Research includes sentiment
+              analysis, computer vision, and multimodal intelligent systems.
             </p>
           </div>
+
+          {/* LECTURER CURRENT */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Lecturer – Computer Science</h4>
+                <h5>Government Postgraduate College, Haripur</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2022 – Present</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Teaching core Computer Science subjects including AI, Data Structures,
+              Operating Systems, and Programming. Mentoring students and supervising
+              projects with a focus on real-world applications and modern technologies.
             </p>
           </div>
+
+          {/* PREVIOUS LECTURER */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Lecturer – Computer Science</h4>
+                <h5>Abbottabad University of Science & Technology</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Delivered courses in Mobile App Development, NLP, Database Systems,
+              and Simulation & Modeling with emphasis on practical implementation
+              and student-driven projects.
             </p>
           </div>
+
+          {/* EARLIER EXPERIENCE */}
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Lecturer / Research Assistant / Developer</h4>
+                <h5>University of Haripur & Other Institutions</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2020 – 2022</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Taught Machine Learning, Programming, and Software Engineering courses.
+              Worked as a Research Assistant and contributed to AI-based systems.
+              Also developed C#/.NET applications including POS and management systems.
             </p>
           </div>
         </div>
